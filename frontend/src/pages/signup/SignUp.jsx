@@ -34,7 +34,7 @@ const SignUp = () => {
             </label>
             <input
               type="text"
-              placeholder="shubh keshari"
+              placeholder="Enter your full name"
               className="w-full input input-bordered h-10 "
               value={inputs.fullName}
               onChange={(e)=>setInputs({...inputs,fullName:e.target.value})}
@@ -46,7 +46,7 @@ const SignUp = () => {
             </label>
             <input
               type="text"
-              placeholder="shubh"
+              placeholder="your username"
               className="w-full input input-bordered h-10 "
               value={inputs.username}
               onChange={(e)=>setInputs({...inputs,username:e.target.value})}
